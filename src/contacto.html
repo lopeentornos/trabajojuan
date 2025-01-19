@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Pedri González</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <p class="titulo"><a href="img/da76aaf9013cd1ef8f6875f344db2083.jpg">Pedri</a></p> 
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="biografia.html">Biografía</a></li>
+                <li><a href="logros.html">Logros o Legado</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="formulario">
+            <h1>Contacto</h1>
+            <p>Si tienes alguna pregunta, comentario o sugerencia, no dudes en contactarnos.</p>
+            <form action="hola.php" method="post">
+              <div class="form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+              </div>
+              <div class="form">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Escribe tu correo" required>
+              </div>
+              <div class="form">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="boton">Enviar</button>
+            </form>
+          </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sitio Oficial de Pedri González. Todos los derechos reservados. By Lope</p>
+    </footer>
+</body>
+</html>

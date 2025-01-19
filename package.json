@@ -1,0 +1,31 @@
+{
+  "name": "plantilla",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel --open",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.13.2",
+    "parcel-bundler": "^1.12.5",
+    "path-browserify": "^1.0.1",
+    "posthtml-include": "^2.0.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "aos": "^2.3.4",
+    "flickity": "^3.0.0",
+    "lightbox2": "^2.11.5",
+    "lightgallery": "^2.8.2",
+    "particles.js": "^2.0.0",
+    "simple-slider": "^1.0.1",
+    "swiper": "^11.2.0"
+  }
+}
